@@ -13,8 +13,8 @@ snowflake ID is a negative number, which breaks our sorting.
 
 for an epoch of 2015
 
--Something < something < something 
-2090 <  2020 < 2021 
+-Something < something < something  
+2090 <  2020 < 2021  
 
 One thing you could do is just start using signed timestamps and set the epoch way in the future. 
 So I decided to implement a library showing this for fun.
@@ -22,9 +22,9 @@ So I decided to implement a library showing this for fun.
 
 ### Spaces
 
-42 bit timestamp = ~140 years
-41 Bit timestamp = ~70 Years 
-
+42 bit timestamp = ~140 years  
+41 Bit timestamp = ~70 Years  
+ 
 We lose 1/2 of our time when using 41 bits. Twitter and discord probably wont be around in 70 years, so it's likely that it wont matter. To put that in perspective Turing created the Turing Machine 85 years ago.
 
 
